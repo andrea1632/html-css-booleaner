@@ -20,7 +20,6 @@
 }
 .container-main{
     width: 75%;
-    border: 1px solid red;
     margin: auto;
 }
 h1{
@@ -32,4 +31,36 @@ h1{
 }
 .lightblue{
     color: rgb(96, 164, 187);
+}
+.images-top{
+    margin-top: 15px;
+}
+#lorem1{
+    margin-top: 20px;
+}
+
+#list{
+    margin-top: 20px;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    height: 200px;
+}
+.raw{
+    background-color: rgb(79, 155, 255);
+}
+th{
+    color: antiquewhite;
+    text-align: left;
+}
+#first-th{
+    width: 20%;
+}
+#second-th{
+    width: 20%;
+}
+.blue-raw{
+    background-color: rgb(146, 209, 238);
 }
