@@ -35,7 +35,7 @@ h1{
 .images-top{
     margin-top: 15px;
 }
-#lorem1{
+.lorem1{
     margin-top: 20px;
 }
 
@@ -63,4 +63,24 @@ th{
 }
 .blue-raw{
     background-color: rgb(146, 209, 238);
+}
+footer{
+    margin-top: 20px;
+}
+#monitor{
+    height: 100px;
+    width: 200px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    margin-top: 10px;
+}
+#graph{
+    height: 100px;
+    width: 200px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    margin-top: 10px;
+}
+.footer-text{
+    color: antiquewhite;
 }
