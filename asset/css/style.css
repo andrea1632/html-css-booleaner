@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0;
 }
+/* END OF RESET */
 .banner{
     width: 100%;
     height: 100px;
@@ -34,6 +35,8 @@ h1{
 }
 .images-top{
     margin-top: 15px;
+    max-width: 100%;
+    height: 400px;
 }
 .lorem1{
     margin-top: 20px;
@@ -83,4 +86,27 @@ footer{
 }
 .footer-text{
     color: antiquewhite;
+}
+.highlighted{
+    background-color: yellow;
+}
+ul{
+    list-style-position: inside;
+}
+#tim-1{
+    background-image: url(../img/tim-1.jpg);
+    height: 100%;
+    width: 50%;
+    background-repeat:no-repeat;
+    display: inline-block;
+    background-size: cover ;
+}
+#tim-2{
+   background-image: url(../img/tim-2.jpg);
+   height: 100%;
+   width: 49%;
+   background-repeat:no-repeat ;
+   display: inline-block;
+   background-size: cover;
+   background-position: left;
 }
